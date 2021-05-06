@@ -24,7 +24,7 @@ On Windows or Mac, the directory can be omitted,
 monument.init("")
 ```
 
-On Linux, look from your home directory.
+On Linux, it might be found in your home directory.
 
 ```
 from os.path import expanduser
@@ -34,7 +34,7 @@ monument.init(home + "/MonumentDev")
 
 ### Serve
 
-Specify the location of your maifile (`.mai`), serving data file (`.csv`), and algo name (`ALGO(COLUMN)`).
+Specify the location of your maifile (`.mai`), serving data file (`.csv`), and algo name (`Algo(Column)`).
 
 The algo name must match the model in the maifile.
 

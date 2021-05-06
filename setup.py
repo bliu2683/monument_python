@@ -13,13 +13,13 @@ with open(os.path.join(HERE, "README.md")) as fid:
 # This call to setup() does all the work
 setup(
     name="monument",
-    version="0.1.0",
+    version="0.1.1",
     description="Python Interface to MonumentAI Model Serving",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/monumentAI/monument_python",
-    author="MonumentAI",
-    author_email="bliu@monuemnt.ai",
+    author="MonumentAI, Inc.",
+    author_email="dev@monuemnt.ai",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
